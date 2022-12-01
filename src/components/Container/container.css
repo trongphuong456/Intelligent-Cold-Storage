@@ -1,0 +1,137 @@
+
+#Container .clear{
+    clear: both;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Common */
+#Container .pd{
+    padding: 20px
+}
+
+#Container .d-f{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#Container .b-c-bl{
+    background-image: url("./img/background.jpg") ;
+    background-size: cover;
+    
+}
+
+#Container .b-c-sm{
+    background: linear-gradient(to right, #3498db, #2c3e50);
+}
+
+#Container .center{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+#Container li{
+    list-style-type: none;
+    min-width: 260px;
+}
+
+
+
+/* Class header */
+
+/* #Container{
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    z-index: 1000;
+} */
+#Container .header{
+    justify-content: space-between;
+}
+
+#Container .header h1{
+    margin-bottom: 20px;
+}
+
+#Container .header-btn{
+    line-height: 111px;
+    height: 111px;
+}
+
+#Container .header-btn button{
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 30px;
+}
+
+#Container .header-btn button:hover {
+    cursor: pointer;
+}
+
+
+/* nav */
+
+#Container .nav {
+    justify-content: flex-start;
+}
+
+#Container .nav>li{
+    text-align: center;
+    font-size: 20px;
+    height: 52px;
+    line-height: 52px;
+    color: #fff;
+
+}
+
+#Container .subnav>li:hover,
+#Container .nav>li:hover{
+    background-color: #7f8fa6;
+    transition: 0.5s;
+    cursor: pointer;
+    color: #fff;
+}
+
+#Container .nav>li:hover .subnav{
+    display: block;
+    transition: 5s;
+}
+
+
+#Container .nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#Container .subnav{
+    display: none   ;
+    position: absolute;
+    min-width: 220px;
+    background: linear-gradient(to right, #3498db, #2c3e50);
+
+}
+
+#Container .nav>li>a{
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+#Container .header-icon{
+    padding-left: 10px;
+}
+.btn-container{
+    padding: 10px 30px;
+    background-color: #40739e;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 10px 0 10px rgb(136, 133, 133);
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+
+}
+

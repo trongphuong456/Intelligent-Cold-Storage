@@ -1,0 +1,37 @@
+#DatePicker{
+    background: linear-gradient(to right, #3498db, #2c3e50);
+    margin-bottom: 50px;
+    
+}
+
+#DatePicker .datepicker-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px;
+    font-size: 25px;
+    margin: 0px 50px 0 10px;
+}
+
+#DatePicker input[type="text"] {
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px 0 10px 10px;
+    border-radius: 5px;
+}
+
+.warehouse{
+    margin: 5px 0 0 100px ;
+}
+
+.number-warehouse{
+    border: solid #333 2px;
+    background-color: white;
+    padding: 2px 10px;
+    border-radius: 5px;
+    color: #888888;
+}
+
+.day{
+    margin-top: 8px;
+}

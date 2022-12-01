@@ -1,0 +1,128 @@
+#DASHBOARD{
+    text-align: center;
+    margin: 20px 0;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    color: #FFFFFF;
+
+}
+
+.dashboard-content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.bg-dashboard{
+    background: linear-gradient(to right, #3498db, #2c3e50);
+
+}
+
+.bg {
+    position: relative;
+    border: solid 5px black;
+    background-color: white;
+}
+
+.plc {
+    width: 400px;
+    height: 200px;
+    margin: 0 auto 50px;
+}
+
+.lamp {
+    width: 350px;
+    height: 200px;
+}
+
+
+.fan {
+    width: 600px;
+    height: 325px;
+}
+
+.img{
+    margin-top: 20px;
+    position: absolute;
+}
+
+.img-plc{
+    width: 50%;
+    height: 50%;
+    left: 0;
+}
+
+.img-lamp{
+    width: 40%;
+    height: 60%;
+    
+}
+
+.img-fan {
+    width: 40%;
+    height: 60%;
+    left: 50px; top:30px;
+}
+
+
+.start{
+    position: absolute;
+    padding: 10px;
+    top: 65px;
+    right: 115px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 5px 0px 5px #888888;
+    display: block;
+    border-radius: 50%;
+    height: 70px;
+    font-size: 15px;
+    width: 70px;
+    background-color: rgb(150, 247, 247) ;
+}
+
+.stop{
+    position: absolute;
+    padding: 10px;
+    top: 65px;
+    right: 25px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 5px 0px 5px #888888;
+    display: block;
+    border-radius: 50%;
+    height: 70px;
+    font-size: 15px;
+    width: 70px;
+    background-color: rgb(150, 247, 247) ;
+}
+
+
+.stop:hover,
+.start:hover{
+    opacity: 0.8;
+}
+
+.fan p{
+    margin-left: 300px;
+    font-size: 20px;
+}
+
+.mar-25{
+    margin-top: 25px;
+}
+.mar-65{
+    margin-top: 65px;
+}
+
+.top-30{
+    top : 30px
+}
+
+.top-120{
+    top : 120px
+}
+
+.top-210{
+    top: 210px
+}
